@@ -3,10 +3,18 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HelloWorldBindingsComponent } from './hello-world-bindings/hello-world-bindings.component';
+import { HelloWorldComponent } from './hello-world/hello-world.component';
+import { HelloWorldNgifComponent } from './hello-world-ngif/hello-world-ngif.component';
+import { HelloWorldDiComponent } from './hello-world-di/hello-world-di.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HelloWorldBindingsComponent,
+    HelloWorldComponent,
+    HelloWorldNgifComponent,
+    HelloWorldDiComponent
   ],
   imports: [
     BrowserModule,

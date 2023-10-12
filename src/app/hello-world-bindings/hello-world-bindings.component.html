@@ -1,0 +1,15 @@
+<h2>Component hello-world-bindings works!</h2>
+<p>showing combined types of bindings like: properties, events, interpolation, etc.</p>
+<button
+  type="button"
+  [disabled]="!canClick"
+  (click)="sayMessage()">
+  Click to show message
+</button>
+<p
+  [id]="sayHelloId"
+  [style.color]="fontColor">
+  You can set my color in the component!
+</p>
+
+<p>My color is {{fontColor}}</p>
